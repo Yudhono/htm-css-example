@@ -1,0 +1,39 @@
+.articleContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* /* flex-direction: row; */
+  gap: 20px;
+}
+
+.singleArticleContainer {
+  /* width: 30%; */
+  background-color: beige;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.paragrafStyle {
+  text-align: justify;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.buttonStyle {
+  background-color: #93d0ea;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}

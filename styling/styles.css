@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+}
+
+.container {
+  color: purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: justify;
+  width: 50%;
+  display: flex;
+  color: black;
+}
+
+.spacer {
+  width: 50px;
+  height: 50px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #93d0ea;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  font-size: large;
+  padding: 10px;
+}
